@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        username: nacos
+        password: nacos
+        namespace: dev
+  application:
+    name: service-B-app
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: root
+    database: 0
+server:
+  port: 8070
+
