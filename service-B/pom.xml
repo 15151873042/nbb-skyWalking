@@ -37,9 +37,16 @@
             <version>8.7.0</version>
         </dependency>
 
+        <!-- 手动获取tranceId -->
         <dependency>
             <groupId>org.apache.skywalking</groupId>
             <artifactId>apm-toolkit-trace</artifactId>
+            <version>8.7.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.skywalking</groupId>
+            <artifactId>apm-agent-core</artifactId>
             <version>8.7.0</version>
         </dependency>
 

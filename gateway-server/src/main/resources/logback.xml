@@ -16,7 +16,7 @@
     <property name="log.max_size" value="500MB"></property>
     <!-- 日志输出格式 -->
     <property name="log.pattern" value="%-20(%d{yyyy-MM-dd HH:mm:ss.SSS} [%X{tid}] [%thread]) %-5level %logger{80}[%L] - %msg%n"></property>
-    <property name="log.pattern.console" value="%red(%d{yyyy-MM-dd HH:mm:ss}) %yellow([%X{tid}]) %green([%thread]) %highlight(%-5level) %boldMagenta(%logger) - %cyan(%msg%n)"/>
+    <property name="log.pattern.console" value="%red(%d{yyyy-MM-dd HH:mm:ss}) %yellow([%X{mdcTracdId}]) %green([%thread]) %highlight(%-5level) %boldMagenta(%logger) - %cyan(%msg%n)"/>
 
     <!-- 日志输出位置:控制台 -->
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">

@@ -34,10 +34,17 @@
             <artifactId>spring-cloud-starter-loadbalancer</artifactId>
         </dependency>
 
-        <!-- 使输出日志中含有traceID -->
+        <!-- 整合lockback，使输出日志中含有traceID -->
         <dependency>
             <groupId>org.apache.skywalking</groupId>
             <artifactId>apm-toolkit-logback-1.x</artifactId>
+            <version>8.7.0</version>
+        </dependency>
+
+        <!-- 手动获取tranceId -->
+        <dependency>
+            <groupId>org.apache.skywalking</groupId>
+            <artifactId>apm-toolkit-trace</artifactId>
             <version>8.7.0</version>
         </dependency>
     </dependencies>
