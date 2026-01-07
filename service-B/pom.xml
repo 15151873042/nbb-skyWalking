@@ -44,11 +44,13 @@
             <version>8.7.0</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.apache.skywalking</groupId>
-            <artifactId>apm-agent-core</artifactId>
-            <version>8.7.0</version>
-        </dependency>
+        <!-- skywalking-agent.jar的源码，为了便于查看源码类，引入后，启动项目会报错 -->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.skywalking</groupId>-->
+<!--            <artifactId>apm-agent-core</artifactId>-->
+<!--            <version>8.7.0</version>-->
+<!--            <scope>provided</scope>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

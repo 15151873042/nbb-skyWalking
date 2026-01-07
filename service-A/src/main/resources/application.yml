@@ -9,5 +9,15 @@ spring:
   application:
     name: service-A-app
 server:
-  port: 8080
+  port: 8081
 
+
+xxl:
+  job:
+    admin:
+      addresses: http://127.0.0.1:8080/xxl-job-admin
+    accessToken: default_token
+    executor:
+      appName: service-A-app
+      ip: 127.0.0.1
+      port: 9999
